@@ -21,7 +21,7 @@ deploy:
   distributions: sdist bdist_wheel
   user: canisik
   password:
-    secure: PLEASE_REPLACE_ME
+    secure: _,:#`QztOhJ0'8m#"-Sfvuard1NAsgJhmetQfd.YC+eii-79`T*LsNul9\LfyojpdEh$\-^"msf.fq
   on:
     tags: true
     repo: ahmetcanisik/fovsa_cli
