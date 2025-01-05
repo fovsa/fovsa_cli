@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fovsa_cli"
-version = "0.0.1"
+version = "0.0.2"
 description = "CLI Tool for Fovsa App"
 readme = "README.rst"
 authors = [
@@ -34,6 +34,9 @@ dev = [
 bugs = "https://github.com/ahmetcanisik/fovsa_cli/issues"
 changelog = "https://github.com/ahmetcanisik/fovsa_cli/blob/master/changelog.md"
 homepage = "https://github.com/ahmetcanisik/fovsa_cli"
+
+[project.scripts]
+fovsa = "fovsa_cli.cli"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
